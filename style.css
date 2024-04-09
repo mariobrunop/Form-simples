@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos {
+    background-color: beige;
+    width: 50%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.input_box {
+    font-size: 15pxpx;
+    padding: 1rem;
+    margin: 10px;
+    border: none;
+    background-color: rgb(213, 218, 223);
+    border-radius: 9px;
+}
+
+.button_enviar {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
